@@ -1,0 +1,47 @@
+/* © 2017, 2018 published Massachusetts Institute of Technology. */
+body {
+    font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+}
+
+p {
+  font-size: 14px;
+}
+h1 {
+  font-style: oblique;
+  font-size: 14px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 50px 0px;
+}
+
+.column {
+    box-sizing: border-box;
+    flex: 33%;
+    max-width: 33%;
+    height: 200px;
+    padding: 2px 2px 2px 2px;
+}
+
+.column img {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px solid transparent;
+    vertical-align: middle;
+}
+
+.column img:hover {
+    cursor: hand;
+}
+
+.column p {
+    padding: 0px 5px 0px 5px;
+}
+
+div {
+    padding: 10px 10px 10px 10px;
+}
