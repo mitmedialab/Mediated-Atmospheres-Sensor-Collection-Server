@@ -20,9 +20,13 @@ Use the *Config File* main.conf to customize the system. This is an exmaple Conf
 }
 ```
 **name** is the name of the system.
+
 **database** is the database for data collection. **path** is the local path where you want to store the collected data. The system creates data folders and files for each data stream using this path. The names of the folders and files are a combination of the type of data and the time it was created. 
-**bioharness** needs to be included in this file if you want to use the bioharness, otherwise remove this key. **port** is the name of the serial port for the bluetooth connection. To find out which port your Bioharness device is using, you can type ```ls /dev/cu.*``` in a terminal.
+
+**bioharness** needs to be included in this file if you want to use the bioharness, otherwise remove this key. **port** is the name of the serial port for the bluetooth connection. To find out which port your Bioharness device 
+is using, you can type ```ls /dev/cu.*``` in a terminal.
 To pair the device with you computer use code 1234. 
+
 **processing** needs to be included in this file if you want to do real-time monitoring or data processing, otherwise remove this key. **port** is the associated websocekt port
        
 
