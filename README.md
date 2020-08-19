@@ -1,7 +1,7 @@
 # Mediated-Atmospheres 2.0
 
 ## Sensor Collection Server
-The *Sensor Cellection Server* is the Mediated Atmospheres 2.0 sensor system building on the [Twisted](https://twistedmatrix.com] event-based networking engine. It handles the connection, the incoming datastream, and the storage of the data of vairous sensors including Zyphir Bioharness 3 (requires [zephyr-bt library](https://github.com/jpaalasm/zephyr-bt/tree/master/src/zephyr)), Empatica E4, and Intraface Facial Feature Tracking Software.
+The *Sensor Cellection Server* is the Mediated Atmospheres 2.0 sensor system building on the [Twisted](https://twistedmatrix.com) event-based networking engine. It handles the connection, the incoming datastream, and the storage of the data of vairous sensors including Zyphir Bioharness 3 (requires [zephyr-bt library](https://github.com/jpaalasm/zephyr-bt/tree/master/src/zephyr)), Empatica E4, and Intraface Facial Feature Tracking Software.
 
 ### Config File
 Use the *Config File* main.conf to customize the system. This is an exmaple Config File: 
