@@ -23,7 +23,7 @@ Use the *Config File* main.conf to customize the system. This is an exmaple Conf
 
 **database** is the database for data collection. **path** is the local path where you want to store the collected data. The system creates data folders and files for each data stream using this path. The names of the folders and files are a combination of the type of data and the time it was created. 
 
-**bioharness** needs to be included in this file if you want to use the bioharness, otherwise remove this key. **port** is the name of the serial port for the bluetooth connection. To find out which port your Bioharness device 
+**bioharness** needs to be included in this file if you want to use the bioharness, otherwise remove this key **port** is the name of the serial port for the bluetooth connection. To find out which port your Bioharness device 
 is using, you can type ```ls /dev/cu.*``` in a terminal.
 To pair the device with you computer use code 1234. 
 
@@ -34,6 +34,7 @@ To pair the device with you computer use code 1234.
 Using the *Real-time Processing Interface* you can monitor incoming sensor data in real-time in a browswer ([localhost:9090](localhost:9090)). You can also connect any real-time *Sensor Processing Software* via Websocket.  
 
 **Port: 12345** (as defined above in the Config File)
+
 Subscribers to real-time processing receive data packages in JSON format at 1Hz (default) update rate. The data package contains all sensor data since the last update. Data that are sampled at a higher rate than 1Hz are packed in an array. For example the data package for the Bioharness is:
 
 ```
